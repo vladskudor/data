@@ -144,7 +144,7 @@ export class ServiceService {
     // if (users) {
     //   this.users = users;
     // }
-    this.http.get('http://localhost:3000/api/users').subscribe( (data) => {
+    this.http.get('https://vladskudor.github.io:3000/api/users').subscribe( (data) => {
       this.users = data;
       console.log(this.users);
     });

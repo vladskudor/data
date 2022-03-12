@@ -6,7 +6,7 @@ import {Observable} from 'rxjs';
 @Injectable()
 export class UserService{
 
-  private url = 'http://localhost:3000/api/users';
+  private url = 'https://vladskudor.github.io:3000/api/users';
   // private url = 'https://vladskudor.github.io/api/users';
   constructor(private http: HttpClient){ }
 
