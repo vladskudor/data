@@ -1,0 +1,48 @@
+@import "../global-style/global-style";
+
+.user-content{
+  padding: 100px 0 0 0;
+  display: flex;
+  justify-content: center;
+  //height: 60vh;
+  color: $white;
+  text-align: left;
+}
+
+.content div{
+  padding: 10px 0;
+}
+
+.button-profile{
+  text-align: center;
+  button{
+    @media(max-width: 600px) {
+      padding: 10px;
+      font-size: 10px;
+    }
+  }
+}
+
+.del-button{
+  font-size: 8px;
+}
+
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  @media (max-width: 600px) {
+    font-size: calc(18px + (20 - 18) * (100vw - 320px) / (1200 - 320));
+  }
+}
+
+li{
+  list-style: none;
+}
+
+b{
+  color: $red;
+}
+
+.button-show-like-cars{
+  text-align: center;
+}
